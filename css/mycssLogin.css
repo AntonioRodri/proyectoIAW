@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 50px 50px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+/*    color: red;*/
+}
+
+.main-container{
+    /*border: 2px red solid;*/
+    background: teal;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    text-align: center;
+}
+
+input{
+    font-size: 1.5em;
+    margin: 10px 5px;
+}
+input[type="text"]:hover{
+    font-size: 1.5em;
+    border: 1px aqua solid;
+}
+input[type="text"]:focus{
+    font-size: 1.5em;
+    border: 1px aqua solid;
+}
+label{
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 3px 3px;
+    cursor: pointer;
+    background: gold;
+    text-align: center;
+}
+
+.error{
+    /*width: 40%;*/
+    min-height: 70px;
+}

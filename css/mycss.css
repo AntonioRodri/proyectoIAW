@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: teal;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background: #000011;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    padding: 0 2em;
+}
+h1{
+    padding: 0 1em;
+}
+
+main{
+    padding: 0 1em;
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+}
+
+.main-container{
+    width: 85%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    min-height: 600px;
+    border: 1px solid bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+aside{
+    width: 15%;
+    border: 1px solid yellow;
+}
+
+footer{
+    align-self: flex-end;
+    background: #000011;
+    width: 100%;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    border: 2px solid greenyellow;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #64ffda;
+}
+.menu:hover{
+    color: #283593;
+    background: #26c6da;
+}
+
+label{
+    color: #64ffda;
+    font-size: 1.5em;
+}
+
+form{
+    text-align: center
+}
+input{
+    font-size: 1.5em;
+    margin: 10px 5px;
+
+}
+
+.salir{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    color: yellowgreen;
+}
+.error{
+    color: greenyellow;
+    min-height: 70px;
+}
+
+.listado{
+    margin: 15px 0;
+    width: 700px;
+    color: aquamarine;
+    border: 1px aqua solid;
+    line-height: 3px;
+    text-align: center;
+}
+
+table{
+    border: 2px solid plum;
+    border-collapse: separate;
+    height: 150px;
+    width: 300px;
+    font-size: 1.5em;
+}
+
+tr, td{
+    border: 2px solid plum;
+}
